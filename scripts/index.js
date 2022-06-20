@@ -65,3 +65,18 @@ sidebar.innerHTML= sidebar_data.map(item=>{
           </a>
     `
 }).join("")
+
+for(let i=0; i< sidebar_data.length;i++){
+    if(sidebar_data[i].tab === "Messages"){
+        
+       
+       //console.log (document.getElementsByTagName('h3')[i])
+       const span = document.createElement("span")
+       const text = document.createTextNode("26")
+
+       span.appendChild(text)
+       document.getElementsByTagName('a')[i].appendChild(span).classList.add('message-count') 
+          
+
+    }
+}
