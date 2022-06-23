@@ -133,3 +133,17 @@ insights_container.innerHTML= insights_data.map(data=>{
   </div>
     `
 }).join("")
+
+
+/*Recent updates */
+const recent_updates_data = [
+    {
+        content:'Sale analytics',
+        icon:"bi bi-cart-plus-fill",
+        title:'ONLINE ORDERS',
+        last_seen:'Last 6 Hours',
+        sucess:'65%',
+        value:'87642'
+
+    }
+]
