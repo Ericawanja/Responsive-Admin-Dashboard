@@ -145,5 +145,23 @@ const recent_updates_data = [
         sucess:'65%',
         value:'87642'
 
-    }
+    },
+    {
+        content:'Online orders',
+        icon:"bi bi-cart-plus-fill",
+        title:'ONLINE ORDERS',
+        last_seen:'Last 6 Hours',
+        sucess:'65%',
+        value:'87642'
+
+    },
+    {
+        content:'Sale analytics',
+        icon:"bi bi-cart-plus-fill",
+        title:'ONLINE ORDERS',
+        last_seen:'Last 6 Hours',
+        sucess:'65%',
+        value:'87642'
+
+    },
 ]
