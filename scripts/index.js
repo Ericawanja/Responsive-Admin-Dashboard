@@ -165,3 +165,18 @@ const recent_updates_data = [
 
     },
 ]
+
+const orders=[
+    {
+        productName:'Ruko Tv',
+        productNumber:'6590',
+        paymentStatus:'Due',
+        shipping:'Pedding',
+    },
+    {
+        productName:'Drone with Camera',
+        productNumber:'656',
+        paymentStatus:'Paid',
+        shipping:'Delivered',
+    },
+]
